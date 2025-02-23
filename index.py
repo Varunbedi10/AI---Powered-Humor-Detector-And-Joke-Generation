@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCBNwMD0KtIm9nhqbK-ChT2tsZWQfoxwMg")
+genai.configure(api_key=)
 
 @app.route('/generate-joke', methods=['POST'])
 def generate_joke():
