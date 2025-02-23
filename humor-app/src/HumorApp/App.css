@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #121212; /* Dark background for the whole page */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff9800; /* Bright Orange */
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for effect */
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #e0e0e0; /* Light text color for contrast */
+}
+
+.section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #333333; /* Darker section background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.input-field {
+  padding: 12px;
+  width: 80%;
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  background-color: #2c2c2c; /* Dark input background */
+  color: #e0e0e0; /* Light text inside input */
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #ff9800; /* Orange focus border */
+}
+
+.button {
+  padding: 12px 30px;
+  background-color: #ff9800; /* Bright Orange */
+  color: #121212; /* Dark text */
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ffeb3b; /* Lighter yellow for hover effect */
+}
+
+p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #e0e0e0; /* Light text */
+}
+
+.funny {
+  color: #4caf50; /* Green for funny text */
+}
+
+.not-funny {
+  color: #ff5733; /* Red for not funny */
+}
+
+.generated-joke {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff9800; /* Bright Orange for joke text */
+  margin-top: 15px;
+  background-color: #2c2c2c; /* Dark background for joke box */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for the joke box */
+}
+
+/* Optional: Smooth background transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
